@@ -1,0 +1,17 @@
+{
+  "name": "xyzBankTest",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "cypress": "^12.5.1",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "mochawesome": "^7.1.3"
+  },
+  
+    "scripts": {
+      "runner":"cypress open",
+      "html-report" : "cypress run — — spec cypress/e2e/XYZ_Bank_Test/bank_manager/verifyLogin.cy.js — — browser chrome — — headed"
+    }
+  
+}
