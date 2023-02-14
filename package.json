@@ -13,7 +13,7 @@
       "test":"test",
       "runner":"cypress open",
       "cypress:runDefault" : "cypress run — — spec cypress/e2e/XYZ_Bank_Test/*.cy.js",
-      "cypress:chrome":"cypress run --browser chrome --spec cypress/e2e/XYZ_Bank_Test/*.cy.js",
+      "cypress:chrome":"cypress run --browser chrome",
       "cypress:edge":"cypress run --browser edge --spec cypress/e2e/XYZ_Bank_Test/*.cy.js",
       "cypress:runChromeHeadless":"cypress run --headless --browser chrome --spec cypress/e2e/XYZ_Bank_Test/*.cy.js"
     }
