@@ -10,8 +10,12 @@
   },
   
     "scripts": {
+      "test":"test",
       "runner":"cypress open",
-      "html-report" : "cypress run — — spec cypress/e2e/XYZ_Bank_Test/bank_manager/verifyLogin.cy.js — — browser chrome — — headed"
+      "cypress:runDefault" : "cypress run — — spec cypress/e2e/XYZ_Bank_Test/*.cy.js",
+      "cypress:chrome":"cypress run --browser chrome --spec cypress/e2e/XYZ_Bank_Test/*.cy.js",
+      "cypress:edge":"cypress run --browser edge --spec cypress/e2e/XYZ_Bank_Test/*.cy.js",
+      "cypress:runChromeHeadless":"cypress run --headless --browser chrome --spec cypress/e2e/XYZ_Bank_Test/*.cy.js"
     }
   
 }
